@@ -1,5 +1,18 @@
 \documentclass{book}
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\theoremstyle{theorem}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{example}{Example}[section]
 
 \title{Measure Theory and Lesbegue Integral}
 \author{Filip Fijałkowski}
@@ -12,6 +25,7 @@
 \maketitle
 \tableofcontents
 
-\section{Introduction}
+\chapter{Measurable Spaces}
+\subfile{chapters/measurable_spaces}
 
 \end{document}
